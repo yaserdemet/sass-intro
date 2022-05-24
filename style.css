@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: pink;
+  color: white;
+  font-size: 1.5rem;
+}
+
+header {
+  padding: 1rem;
+  background-color: #30a7c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 1rem;
+  width: 100px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+}
+
+main .banner {
+  align-items: center;
+  background-color: #cc6699;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  line-height: 2.5rem;
+}
+main button {
+  padding: 0.8rem;
+  background-color: #30a7c3;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  width: 10rem;
+  margin-right: 0.5rem;
+  margin-top: 1.5rem;
+}
+main button:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+main img {
+  width: 30%;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.cards {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding: 1rem;
+}
+.cards .card1 {
+  background-color: brown;
+  width: 25%;
+  color: white;
+  height: 20rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card2 {
+  background-color: lightblue;
+  width: 25%;
+  color: rgb(103, 165, 103);
+  height: 20rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card3 {
+  background-color: lightgreen;
+  width: 25%;
+  color: white;
+  height: 20rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.cards .card4 {
+  background-color: lightyellow;
+  width: 25%;
+  color: rgb(20, 7, 7);
+  height: 20rem;
+  border: 2px solid rgb(175, 29, 29);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.articles {
+  display: flex;
+  padding: 1rem;
+}
+.articles .article1, .articles .article2 {
+  width: 50%;
+  background-color: gray;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 10rem;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.articles .article2 {
+  background-color: lightblue;
+}
+
+.footer .social-icons {
+  height: 10rem;
+  display: flex;
+}
+.footer .social-icons .social1 {
+  width: 20%;
+  height: 100%;
+  background-color: #a68585;
+  color: black;
+  font-size: 1rem;
+}
+.footer .social-icons .social2 {
+  width: 20%;
+  height: 100%;
+  background-color: #9b7777;
+  color: rgb(63, 63, 114);
+  font-size: 2rem;
+}
+.footer .social-icons .social3 {
+  width: 20%;
+  height: 100%;
+  background-color: #906969;
+  color: rgb(145, 56, 71);
+  font-size: 3rem;
+}
+.footer .social-icons .social4 {
+  width: 20%;
+  height: 100%;
+  background-color: #815e5e;
+  color: rgb(73, 172, 73);
+  font-size: 4rem;
+}
+.footer .social-icons .social5 {
+  width: 20%;
+  height: 100%;
+  background-color: #725353;
+  color: rgb(192, 192, 65);
+  font-size: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
