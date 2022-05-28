@@ -18,7 +18,7 @@ header {
   align-items: center;
 }
 header img {
-  border: 2px solid rgb(175, 29, 29);
+  border: 2px solid rgb(250, 248, 248);
   border-radius: 1rem;
   width: 100px;
 }
@@ -112,7 +112,8 @@ main img {
   display: flex;
   padding: 1rem;
 }
-.articles .article1, .articles .article2 {
+.articles .article1,
+.articles .article2 {
   width: 50%;
   background-color: gray;
   border-radius: 10px;
